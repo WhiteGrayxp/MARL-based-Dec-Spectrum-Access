@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/xiaoping/anaconda3/envs/pytorch/bin/python",
+    "jupyter.jupyterServerType": "local",
+    "python.formatting.provider": "black"
+}
