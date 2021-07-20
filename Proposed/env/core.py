@@ -5,7 +5,7 @@ import math
 
 
 #! for simplified case, Area size is [250, 433]
-simplified = True
+simplified = False
 
 if simplified:
     AREA_SIZE = (250, 433)
