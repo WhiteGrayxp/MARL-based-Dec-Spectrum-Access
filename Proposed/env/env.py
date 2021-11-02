@@ -711,6 +711,7 @@ class Environment():
                 interference_db = POWER_LEVEL[self.transmision_power_benchmark[j]] - \
                                 self.v2v_channel.gain_with_fast_fading[j, vehicle_v2v_rx_id, rb] + \
                                 2 * ANTENNA_GAIN_VEHICLE - NOISE_FIGURE_VEHICLE
+                v2v_interference[i][rb] += np.power(10, interference_db / 10)
 
         self.v2v_interference_benchmark = 10 * np.log10(v2v_interference)
 
